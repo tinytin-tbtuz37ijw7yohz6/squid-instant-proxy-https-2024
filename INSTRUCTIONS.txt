@@ -1,0 +1,3 @@
+Commands:
+1. sudo su
+2. apt update && apt install -y squid && cp squid.conf /etc/squid/squid.conf && service squid restart && tar -xzvf zrok_0.4.27_linux_amd64.tar.gz && chmod +xrw zrok && ./zrok enable qTW4bbedPjl2 && ./zrok share private --backend-mode tcpTunnel 127.0.0.1:3128
